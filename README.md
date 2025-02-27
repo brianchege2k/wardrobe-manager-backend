@@ -39,7 +39,7 @@ Edit .env with your local settings:
 
 
 Database: Update the DB_* variables:
-
+```bash
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -47,18 +47,19 @@ DB_PORT=3306
 DB_DATABASE=wardrobe_management
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
-
+```
 
 App URL: Set the base URL for your local backend:
-
+```bash
 APP_URL=http://localhost:8000
-
+```
 
 Sanctum Stateful Domains: If testing with a frontend, add its URL:
 
+```bash
 SANCTUM_STATEFUL_DOMAINS=http://localhost:3000
 
-
+```
 ### 4. Generate Application Key
 ```bash
 php artisan key:generate
