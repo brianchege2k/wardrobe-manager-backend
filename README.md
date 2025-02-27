@@ -20,7 +20,7 @@ Before you begin, ensure you have the following installed on your system:
 If you haven’t already downloaded the project:
 
 ```bash
-git clone https://github.com/brianchege2k/wardrobe-management-backend.git
+git clone https://github.com/brianchege2k/wardrobe-manager-backend.git
 cd wardrobe-management-backend
 ```
 ### 2. Install PHP Dependencies
